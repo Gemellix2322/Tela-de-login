@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-css.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <!--Formulário de cadastro-->
+    <div class="container">
+        <form action="cadastro.php" method="post" class="formulario-login">
+            <label for="username" class="login-text">Nome de Usuário</label>
+            <input type="text" name="username" id="username" placeholder="Digite Aqui">
+
+            <label for="password" class="login-text">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite Aqui">
+
+            <label for="verifiedpassword" class="login-text">Digite sua senha novamente</label>
+            <input type="password" name="verifiedpassword" id="verifiedpassword" placeholder="Digite Aqui">
+
+            <input type="submit" name="Enviar" value="Enviar">
+            <a href="login.html"><button style="width: auto;" type="button" value="Login">Login</button></a>
+        </form>
+    </div>
+</body>
+</html>
