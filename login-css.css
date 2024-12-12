@@ -65,6 +65,7 @@ body {
 .formulario-login input[type="text"],
 .formulario-login input[type="password"]{
     background-color: #484848;
+    color: white;
 }
 
 .formulario-login input[type="text"]::placeholder,
@@ -75,6 +76,7 @@ body {
 .formulario-login input[type="text"]:hover,
 .formulario-login input[type="password"]:hover{
     background-color: #c5c5c5;
+    color: black;
 }
 
 .formulario-login input[type="text"]:hover::placeholder,
